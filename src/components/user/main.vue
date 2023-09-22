@@ -5,7 +5,10 @@
         <div class="container-fluid container-xxl d-flex align-items-center">
 
           <div id="logo" class="me-auto">
-            <h1 class="text-white">Arabelle</h1>
+
+            <h1 class="text-white">
+              <router-link to="/">Arabelle</router-link>
+            </h1>
           </div>
 
           <a class="btn btn-danger rounded-5 shadow fw-bold px-3" >
@@ -21,7 +24,7 @@
         <div class="hero-container shadow" data-aos="zoom-in" data-aos-delay="100">
           <h1 class="mb-4 pb-0">Share your story in<br><span>Arabelle</span></h1>
           <p class="mb-4 pb-0">Create an account or log in to Arabelle - A simple, fun & creative way to share photos with friends & family.</p>
-          <a href="" class="btn btn-outline-danger rounded-5 px-4">Join with Us</a>
+          <router-link class="btn btn-outline-danger rounded-5 px-4" to="/login">Join with Us</router-link>
         </div>
       </section><!-- End Hero Section -->
 
