@@ -20,14 +20,14 @@
 
       <!-- ======= Hero Section ======= -->
       <section id="hero">
-        <div class="hero-container shadow" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card-body text-white pt-5 col-md-4" style="text-align: start !important;">
+        <div class="hero-container shadow pt-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card-body text-white mt-5 my-auto align-middle col-md-4" style="text-align: start !important;">
 
                 <!-- <div class="d-flex align-items-center mb-3 pb-1">
                     <span class="h1 fw-bold mb-0">Login</span>
                 </div> -->
 
-                <h4 class="fw-bold mb-4 mt-5 pb-3 text-center" style="letter-spacing: 1px;">
+                <h4 class="fw-bold mb-4 pb-3 text-center" style="letter-spacing: 1px;">
                   Sign into your account
                 </h4>
 

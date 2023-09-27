@@ -20,8 +20,8 @@
 
       <!-- ======= Hero Section ======= -->
       <section id="hero">
-        <div class="hero-container shadow" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card-body text-white pt-5 col-md-4" style="text-align: start !important;">
+        <div class="hero-container shadow pt-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card-body text-white mt-5 col-md-4" style="text-align: start !important;">
 
                 <!-- <div class="d-flex align-items-center mb-3 pb-1">
                     <span class="h1 fw-bold mb-0">Login</span>
@@ -31,7 +31,7 @@
                     Create your new account
                 </h4>
 
-                <div class="form-outline mb-4">
+                <div class="form-outline mb-4 ">
                     <label class="form-label" for="username">Username</label>
                     <input type="text" v-model="username" id="username" :class="`form-control form-control-lg ${err.Username ? 'is-invalid' : ''} `" />
                     <div  class="invalid-feedback">

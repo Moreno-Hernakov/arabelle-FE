@@ -1,10 +1,24 @@
 import VueRouter from 'vue-router'
 
-import userMain from '../components/user/main.vue';
+import userMain from '../components/landing/main.vue';
 import registerComponent from '../components/auth/register.vue';
 import loginComponent from '../components/auth/login.vue';
+import homeComponent from '../components/user/home.vue';
+import mainUserComponent from '../components/layouts/user/main.vue';
 
 const routes = [
+    {
+      path: '/home', 
+      name: "mainUser",
+      component: mainUserComponent, 
+      children: [
+            {
+              path: "",
+              name: "home",
+              component: homeComponent,
+            },
+      ]
+    },
     { 
       // user
       path: '/', 
