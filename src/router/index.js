@@ -3,8 +3,13 @@ import VueRouter from 'vue-router'
 import userMain from '../components/landing/main.vue';
 import registerComponent from '../components/auth/register.vue';
 import loginComponent from '../components/auth/login.vue';
-import homeComponent from '../components/user/home.vue';
 import mainUserComponent from '../components/layouts/user/main.vue';
+
+// user page
+import homeComponent from '../components/user/home.vue';
+import exploreComponent from '../components/user/explore.vue';
+import searchComponent from '../components/user/search.vue';
+import profileComponent from '../components/user/profile.vue';
 
 const routes = [
     {
@@ -16,6 +21,21 @@ const routes = [
               path: "",
               name: "home",
               component: homeComponent,
+            },
+            {
+              path: "/explore",
+              name: "explore",
+              component: exploreComponent,
+            },
+            {
+              path: "/search",
+              name: "search",
+              component: searchComponent,
+            },
+            {
+              path: "/profile",
+              name: "profile",
+              component: profileComponent,
             },
       ]
     },

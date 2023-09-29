@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'searchComponent',
+    name: 'profileComponent',
     data() {
       return {
 
