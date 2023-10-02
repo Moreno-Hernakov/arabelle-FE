@@ -1,51 +1,15 @@
 <template>
     <div class="container bg-secondary bg-opacity-10 rounded-top-5 p-4">
       <div class="row">
-        <h1>  
-          {{ this.isHoverItem }}
-        </h1>
         <div class=" col-lg-4 col-xs-6 my-3 position-relative" style="display: flex;">
           <img
             src="../../assets/image-dummy.jpg" 
             alt="profile"
-            class=" post-image "
+            class=" post-image rounded-top-5"
           >
           <div class="bg-danger text-white bg-opacity-75 py-1 px-3 rounded-5 text-detail">
-            <b class=""><i class="fa fa-heart"></i> 431 </b>
-            <b class="shadow"><i class="fa fa-heart"></i> 431</b>
-          </div>
-        </div>
-        <div class=" col-lg-4 col-xs-6 my-3 position-relative" style="display: flex;">
-          <img
-            src="../../assets/image-dummy.jpg" 
-            alt="profile"
-            class=" post-image "
-          >
-          <div class="bg-danger text-white bg-opacity-75 py-1 px-3 rounded-5 text-detail">
-            <b class=""><i class="fa fa-heart"></i> 431 </b>
-            <b class="shadow"><i class="fa fa-heart"></i> 431</b>
-          </div>
-        </div>
-        <div class=" col-lg-4 col-xs-6 my-3 position-relative" style="display: flex;">
-          <img
-            src="../../assets/image-dummy.jpg" 
-            alt="profile"
-            class=" post-image "
-          >
-          <div class="bg-danger text-white bg-opacity-75 py-1 px-3 rounded-5 text-detail">
-            <b class=""><i class="fa fa-heart"></i> 431 </b>
-            <b class="shadow"><i class="fa fa-heart"></i> 431</b>
-          </div>
-        </div>
-        <div class=" col-lg-4 col-xs-6 my-3 position-relative" style="display: flex;">
-          <img
-            src="../../assets/image-dummy.jpg" 
-            alt="profile"
-            class=" post-image "
-          >
-          <div class="bg-danger text-white bg-opacity-75 py-1 px-3 rounded-5 text-detail">
-            <b class=""><i class="fa fa-heart"></i> 431 </b>
-            <b class="shadow"><i class="fa fa-heart"></i> 431</b>
+            <b class=""><i class="fa fa-heart"></i> 431 </b> &nbsp;
+            <b class="shadow"><i class="fa fa-comment"></i> 957</b>
           </div>
         </div>
       </div>
@@ -69,7 +33,7 @@
 .post-image:hover ~ .text-detail {
     display: block;
   }
-  
+
 .text-detail{
   position: absolute; 
   z-index: 1; 

@@ -41,53 +41,53 @@
         </div>
         </div>
         <div class="col-xl-4 col-lg-5 mb-4 d-none d-lg-block">
-        <div class=" bg-secondary bg-opacity-10 rounded-5 p-2  ">
-            <div class="bg-white rounded-5 py-2 px-3 d-flex align-items-center gap-2">
-            <img 
-                src="../../assets/image-dummy.jpg" 
-                alt="profile" 
-                width="40"
-                class="rounded-5 border border-1 border-dark"
-            >
-            <b>Username</b>
-            <a class="btn btn-outline-danger btn-sm fw-bold text-decoration-none ms-auto rounded-5">Logout</a>
-            </div>
+            <div class=" bg-secondary bg-opacity-10 rounded-5 p-2  ">
+                <div class="bg-white rounded-5 py-2 px-3 d-flex align-items-center gap-2">
+                <img 
+                    src="../../assets/image-dummy.jpg" 
+                    alt="profile" 
+                    width="40"
+                    class="rounded-5 border border-1 border-dark"
+                >
+                <b>Username</b>
+                <a class="btn btn-outline-danger btn-sm fw-bold text-decoration-none ms-auto rounded-5">Logout</a>
+                </div>
 
-            <hr>
-            <b class="px-2 opacity-75">disarankan untuk anda</b>
-            
-            <div class="bg-white rounded-5 py-2 px-3 d-flex align-items-center gap-2 mb-2 mt-3">
-            <img 
-                src="../../assets/image-dummy.jpg" 
-                alt="profile" 
-                width="40"
-                class="rounded-5 border border-1 border-dark"
-            >
-            <b>Username</b>
-            <a class="btn btn-outline-danger btn-sm fw-bold text-decoration-none ms-auto rounded-5">Follow</a>
-            </div>
-            <div class="bg-white rounded-5 py-2 px-3 d-flex align-items-center gap-2 mb-2">
-            <img 
-                src="../../assets/image-dummy.jpg" 
-                alt="profile" 
-                width="40"
-                class="rounded-5 border border-1 border-dark"
-            >
-            <b>Username</b>
-            <a class="btn btn-outline-danger btn-sm fw-bold text-decoration-none ms-auto rounded-5">Follow</a>
-            </div>
-            <div class="bg-white rounded-5 py-2 px-3 d-flex align-items-center gap-2 mb-2">
-            <img 
-                src="../../assets/image-dummy.jpg" 
-                alt="profile" 
-                width="40"
-                class="rounded-5 border border-1 border-dark"
-            >
-            <b>Username</b>
-            <a class="btn btn-outline-danger btn-sm fw-bold text-decoration-none ms-auto rounded-5">Follow</a>
-            </div>
+                <hr>
+                <b class="px-2 opacity-75">disarankan untuk anda</b>
+                
+                <div class="bg-white rounded-5 py-2 px-3 d-flex align-items-center gap-2 mb-2 mt-3">
+                <img 
+                    src="../../assets/image-dummy.jpg" 
+                    alt="profile" 
+                    width="40"
+                    class="rounded-5 border border-1 border-dark"
+                >
+                <b>Username</b>
+                <a class="btn btn-outline-danger btn-sm fw-bold text-decoration-none ms-auto rounded-5">Follow</a>
+                </div>
+                <div class="bg-white rounded-5 py-2 px-3 d-flex align-items-center gap-2 mb-2">
+                <img 
+                    src="../../assets/image-dummy.jpg" 
+                    alt="profile" 
+                    width="40"
+                    class="rounded-5 border border-1 border-dark"
+                >
+                <b>Username</b>
+                <a class="btn btn-outline-danger btn-sm fw-bold text-decoration-none ms-auto rounded-5">Follow</a>
+                </div>
+                <div class="bg-white rounded-5 py-2 px-3 d-flex align-items-center gap-2 mb-2">
+                <img 
+                    src="../../assets/image-dummy.jpg" 
+                    alt="profile" 
+                    width="40"
+                    class="rounded-5 border border-1 border-dark"
+                >
+                <b>Username</b>
+                <a class="btn btn-outline-danger btn-sm fw-bold text-decoration-none ms-auto rounded-5">Follow</a>
+                </div>
 
-        </div>
+            </div>
         </div>
     </div>
 </template>
